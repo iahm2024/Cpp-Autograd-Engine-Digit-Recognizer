@@ -29,10 +29,9 @@ This engine is Scalar-Based. Every single weight and bias is its own object (new
 So, while this is mathematically identical to a real neural network, it is engineered for education and clarity, not performance.
 📝 Future Improvements
 
-    Implement mini-batch gradient descent.
-
-    Add different activation functions (like ReLU) and a Softmax output layer.
-
-    Move from a scalar approach to a matrix-based approach to speed up training.
+* Implement mini-batch gradient descent.
+* Add different activation functions (like ReLU) and a Softmax output layer.
+* Move from a scalar approach to a matrix-based approach to speed up training.
 
 Built for learning purposes. Inspired by Andrej Karpathy's micrograd.
+
